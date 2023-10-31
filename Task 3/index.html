@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Working with SASS</title>
+</head>
+<body>
+    <!--header consists picture element in which the image changes as per the screen size-->
+    <header>
+            <picture>
+                <source srcset="https://via.placeholder.com/200" media="(max-width:480px)">
+                <source srcset="https://via.placeholder.com/300" media="(max-width:800px)">
+                <source srcset="https://via.placeholder.com/400">
+                <img src="400.png" alt="">
+            </picture>
+    </header>
+    <!--container-row contains all the rows that has to be displayed-->
+    <div class="container-row">
+        <div class="row row-1"></div>
+        <div class="row row-2"></div>
+        <div class="row row-3"></div>
+        <div class="row row-4"></div>
+    <!--container contains all the circles that has to be displayed-->
+    <div class="container">
+        <div class="circle circle-1"></div>
+        <div class="circle circle-2"></div>
+        <div class="circle circle-3"></div>
+        <div class="circle circle-4"></div> 
+    </div>
+    <!--footer of the page-->
+    <footer>
+        <div class="footer"></div>
+    </footer>
+</body>
+</html>
