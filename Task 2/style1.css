@@ -334,15 +334,16 @@ footer{
     }
     .rightside{
        display: flex;
-       width: 50%;
+       width: 60%;
        flex-wrap: wrap;
        flex-direction: row;
 
+
     }
     .leftside{
-        width: 60%;
+        width: 65%;
         height: fit-content;
-        margin-left: 5%;
+       
     }
     .content{
         display: flex;
@@ -350,7 +351,7 @@ footer{
         margin: 2%;   
     }
     .article{
-        width: 39%;
+        width: 43.55%;
         margin-left: 2%;
         margin-bottom: 2%; 
     }
