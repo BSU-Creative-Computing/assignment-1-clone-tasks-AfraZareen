@@ -22,7 +22,7 @@ h3{
     font-size: 28px;  
     font-weight:900;
     color: white;
-    margin-left: 4%;
+    margin-left: 5%;
     font-family: 'Raleway', sans-serif;
 }
 /*adjustments of the nav bar*/
@@ -124,7 +124,7 @@ footer{
         display: none;
     }
     .smallscreen{
-        margin-right: -1%;
+        margin-right: -0.5%;
     }
     .smallscreen ul, .smallscreen li{
         margin: 0;
