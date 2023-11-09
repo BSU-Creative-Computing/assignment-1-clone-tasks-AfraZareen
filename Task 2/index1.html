@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What's on</title>
+</head>
+<body>
+    <!--header contains the heading, search bar, and navigation links-->
+    <header>
+        <h3>What's on</h3>
+        <input type="text" placeholder="Search...">
+        <nav class="smallscreen"> <!--displayed for screen size from 480px to 800px -->
+            <ul>
+                <li>
+                    <a class="main" href="#">Menu</a>
+                    <ul id="dropdown">
+                        <li><a href="#">Movies</a> </li>
+                        <li><a href="#">TV</a> </li>
+                        <li><a href="#">Login</a></li>
+                        <li><a href="#">Register</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <nav class="bigscreen"> <!--displayed from screen size-->
+            <a href="#">Movies</a> &nbsp; &nbsp;
+            <a href="#">TV</a>  &nbsp; &nbsp;
+            <a href="#">Login</a> &nbsp; &nbsp;
+            <a href="#">Register</a>
+        </nav>
+    </header>
+    <!--content contains the leftside and the rightside-->
+    <div class="content">
+        <!--leftside contains the image, subheading, and the article -->
+        <div class="leftside">
+            <img src="avengers.jpg" alt="">
+            <section>
+                <h4>Avengers - Endgame</h4>
+                <p>After the devastating events of Avengers: Infinity war (2018), the universe is in ruins.
+                    With the help of remainig allies, the Avengers assemble once more in order to reverse 
+                    Thano's action and restore balance to the universe. </p>
+                <button>More-Info..</button>
+            </section>
+        </div>
+        <!--rightside contains all the other articles, images and subheading and buttons for more info -->
+        <div class="rightside">
+            <div class="article">
+                <img src="lone-gunmen.jpg" alt="">
+                <h4>The Lone Gunmen</h4>
+                <p>The X-Files' Lone Gunmen, investigate crimes and conspiracies, often in a silly, 
+                    comedic and over the top fashion</p>
+                <button>More-Info..</button>
+            </div>
+            <div class="article">
+                <img src="millenium.jpg" alt="">
+                <h4>Millenium Trilogy</h4>
+                <p>A group of elit warriors parachute into an unfamiliar jungle and are hunted by members 
+                    of a merciless alien race. </p>
+                <button>More-Info..</button>
+            </div> 
+            <div class="article">
+                <img src="predators.jpg" alt="">
+                <h4>Predators</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam a pellentesque nunc. 
+                    Donec accumsan urna et porta dapibus.</p>
+                <button>More-Info..</button>
+            </div>
+            <div class="article">
+                <img src="rage.jpg" alt="">
+                <h4>Rage</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam a pellentesque nunc. 
+                    Donec accumsan urna et porta dapibus.</p>
+                <button>More-Info..</button>
+            </div>
+        </div>
+    </div>
+    <footer>Copyright &copy; 2021 What's On.</footer>
+</body>
+</html>
