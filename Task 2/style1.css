@@ -12,14 +12,17 @@ header{
     justify-content:space-between;
     align-items: center;
     background-color:#1E90FF;
-    overflow: auto;
+}
+.bigscreen a{
+    font-weight: 600;
+    font-size: 16px;
 }
 /*styling of the heading in the page*/
 h3{
-    font-size: 26px;
+    font-size: 28px;  
     font-weight:900;
     color: white;
-    margin-left: 100%;
+    margin-left: 4%;
     font-family: 'Raleway', sans-serif;
 }
 /*adjustments of the nav bar*/
@@ -121,7 +124,7 @@ footer{
         display: none;
     }
     .smallscreen{
-        margin-right: -200px;
+        margin-right: -1%;
     }
     .smallscreen ul, .smallscreen li{
         margin: 0;
@@ -146,6 +149,8 @@ footer{
         text-align: center;
         text-decoration: none;
         transition: all 0.25s ease;
+        font-weight: 600;
+        font-size: 16px;
     }
     .smallscreen li:hover a{
         background-color: red;
@@ -199,7 +204,7 @@ footer{
         display: none;
     }
     .smallscreen{
-        margin-right: -200px;
+       margin-right: 2px;
     }
     .smallscreen ul, .smallscreen li{
         margin: 0;
@@ -224,6 +229,8 @@ footer{
         text-align: center;
         text-decoration: none;
         transition: all 0.25s ease;
+        font-weight: 600;
+        font-size: 16px;
     }
     .smallscreen li:hover a{
         background-color: red;
@@ -287,12 +294,6 @@ footer{
         visibility: hidden;
         display: none;
     }
-    .bigscreen{
-        display: flex;
-        justify-content: space-between;
-        margin-right: -50%;
-    }
-
     .leftside{
         display: flex;
         height: fit-content;
