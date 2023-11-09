@@ -123,6 +123,7 @@ footer{
         visibility: hidden;
         display: none;
     }
+    /*drop down menu*/
     .smallscreen{
         margin-right: -0.5%;
     }
@@ -203,6 +204,7 @@ footer{
         visibility: hidden;
         display: none;
     }
+    /*Mdrop down menu*/
     .smallscreen{
        margin-right: 2px;
     }
